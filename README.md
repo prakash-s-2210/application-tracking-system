@@ -134,7 +134,7 @@
 
 ## Live Site
 
-  `[Application Tracking System](http://www.google.fr/ "Named link title")`
+  [Application Tracking System](http://www.google.fr/ "Named link title")
 
 ## Screenshots
 
