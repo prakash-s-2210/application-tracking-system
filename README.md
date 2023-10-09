@@ -134,7 +134,7 @@
 
 ## Live Site
 
-   `https://ats-pro-hire.netlify.app/`
+   `(http://www.google.fr/ "Named link title")`
 
 ## Screenshots
 
