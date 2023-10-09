@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import ApplicationForm from "./components/application-form/ApplicationForm";
+import Sidebar from "./components/sidebar/Sidebar";
+import Tab from "./components/tab/Tab";
 
 function App() {
+  const [selectedTab, setSelectedTab] = useState<string>("Program Details");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="home">
+      <Sidebar />
+
+      <div className="flex-container">
+        <Tab selectedTab = {selectedTab} setSelectedTab = {setSelectedTab} />
+
+        {selectedTab === "Application Form" ? <ApplicationForm /> : <img src="/assets/images/not-found.avif" alt="not-found" className="not-found" />}
+      </div>
+    </main>
   );
 }
 
