@@ -138,3 +138,5 @@
 
 ## Screenshots
 
+https://github.com/prakash-s-2210/application-tracking-system/assets/94909544/6eabe32e-10ee-4af0-a27f-0a03a89cbe3a
+
