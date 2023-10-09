@@ -6,46 +6,48 @@
 
 **Description:** API Task
 
-Base URL: http://127.0.0.1:3100
+**Base URL:** http://127.0.0.1:3100
 
-Endpoints:
+### Endpoints:
 
-1. Retrieve Application Form
+### 1. Retrieve Application Form
 
-URL: /api/{version}/programs/{programId}/application-form
-HTTP Method: GET
-Description: Retrieve application form.
-Parameters:
-programId (Path Parameter)
-Type: string
-Required: true
-version (Path Parameter)
-Type: number
-Required: true
-Response:
-Status 200 (OK)
-Content Type: application/json
-Schema:
-$ref: '#/components/schemas/ApplicationForm'
-2. Upsert Application Form
+* **URL:** `/api/{version}/programs/{programId}/application-form`
+* **HTTP Method:** GET
+* **Description:** Retrieve application form.
+* **Parameters:**
+  * **programId** (Path Parameter)
+    * Type: string
+    * Required: true
+* **version** (Path Parameter)
+  * Type: number
+  * Required: true
+* **Response:**
+  * Status 200 (OK)
+    * Content Type: application/json
+    * Schema:
+      * `$ref: '#/components/schemas/ApplicationForm'`
+        
+### 2. Upsert Application Form
 
-URL: /api/{version}/programs/{programId}/application-form
-HTTP Method: PUT
-Description: Upsert (update or insert) application form.
-Parameters:
-programId (Path Parameter)
-Type: string
-Required: true
-version (Path Parameter)
-Type: number
-Required: true
-Request Body:
-Content Type: application/json
-Schema:
-$ref: '#/components/schemas/ApplicationForm'
-Response:
-Status 204 (No Content)
-Data Schemas:
+* **URL:** `/api/{version}/programs/{programId}/application-form`
+* **HTTP Method:** PUT
+* **Description:** Upsert (update or insert) application form.
+* **Parameters:**
+  * **programId** (Path Parameter)
+    * Type: string
+    * Required: true
+  * **version** (Path Parameter)
+    * Type: number
+    * Required: true
+* **Request Body:**
+  * Content Type: application/json
+  * Schema:
+    * $ref: `'#/components/schemas/ApplicationForm'`
+* **Response:**
+  * Status 204 (No Content)
+ 
+### Data Schemas:
 
 1. ApplicationForm
 
