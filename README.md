@@ -140,5 +140,5 @@
 
 https://github.com/prakash-s-2210/application-tracking-system/assets/94909544/6eabe32e-10ee-4af0-a27f-0a03a89cbe3a
 
-(https://github.com/prakash-s-2210/application-tracking-system/assets/94909544/b713d23a-f23f-4c3d-bf33-c0495ec2d2d4)
+![application-tracking-system](https://github.com/prakash-s-2210/application-tracking-system/assets/94909544/b713d23a-f23f-4c3d-bf33-c0495ec2d2d4)
 
