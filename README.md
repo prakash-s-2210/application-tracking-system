@@ -134,5 +134,7 @@
 
 ## Live Site
 
+   `https://ats-pro-hire.netlify.app/`
+
 ## Screenshots
 
